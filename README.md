@@ -19,7 +19,6 @@ leaks PID
 ```
 #### List functions used by an executable
 Great for finding forbidden functions.
-
 System functions are marked as U, project-specific functions are marked as T
 ```
 nm -g ./a.out

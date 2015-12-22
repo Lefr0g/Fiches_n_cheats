@@ -3,6 +3,10 @@
 
 ### Correction tools
 
+#### Quick norminette
+```
+norminette **/*.[ch]
+```
 #### Debug and find leaks
 ```
 valgring --leak-check=full ./a.out a.out_args

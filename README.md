@@ -13,11 +13,12 @@ a.out (must run indefinitely)
 
 ps
 ```
-find executable's PID
+Then find executable's PID
 ```
 leaks PID
 ```
-#### List functions used by an executable (system functions are marked as U, project-specific functions are marked as T)
+#### List functions used by an executable
+System functions are marked as U, project-specific functions are marked as T
 ```
 nm -g ./a.out
 ```

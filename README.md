@@ -8,9 +8,9 @@
 valgring --leak-check=full ./a.out a.out_args
 ```
 #### Leaks only
+Notice that the tested program must run indefinitely to keep an active PID
 ```
-a.out (must run indefinitely)
-
+a.out
 ps
 ```
 Then find executable's PID

@@ -1,5 +1,5 @@
 # Fiches_n_cheats
-## Useful commands, scripts and more
+Useful commands, scripts and more
 
 ### Correction tools
 
